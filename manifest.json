@@ -1,0 +1,9 @@
+{
+  "id": "module-navigator",
+  "name": "Module Navigator",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Navigate to next/previous file across an entire module tree with Alt+PageDown/PageUp.",
+  "author": "Kareem Ahmed",
+  "isDesktopOnly": false
+}
