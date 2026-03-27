@@ -103,12 +103,54 @@ You can rebind these in **Settings → Hotkeys** → search for "Module Navigato
 
 ## Installation
 
-### Manual
-1. Download `main.js`, `manifest.json` from the [latest release](../../releases/latest)
-2. Create a folder: `.obsidian/plugins/module-navigator/`
-3. Copy `main.js` and `manifest.json` into that folder
-4. Restart Obsidian
-5. Go to **Settings → Community Plugins** → Enable **Module Navigator**
+### Option 1: One-Line Install (Recommended)
+
+Open a terminal and paste the command for your OS. It clones the plugin directly into your vault.
+
+> **Replace `PATH_TO_YOUR_VAULT`** with the actual path to your Obsidian vault.
+
+**Windows (PowerShell)**
+```powershell
+git clone https://github.com/Kareem251199/module-navigator.git "$env:USERPROFILE\PATH_TO_YOUR_VAULT\.obsidian\plugins\module-navigator"
+```
+
+**macOS / Linux**
+```bash
+git clone https://github.com/Kareem251199/module-navigator.git ~/PATH_TO_YOUR_VAULT/.obsidian/plugins/module-navigator
+```
+
+Then open Obsidian → **Settings → Community Plugins** → Enable **Module Navigator**.
+
+---
+
+### Option 2: Manual Download
+
+1. Go to the [latest release](../../releases/latest) page
+2. Download **`main.js`** and **`manifest.json`**
+3. In your vault, create the folder:
+   ```
+   .obsidian/plugins/module-navigator/
+   ```
+4. Copy `main.js` and `manifest.json` into that folder
+5. Restart Obsidian
+6. Go to **Settings → Community Plugins** → Enable **Module Navigator**
+
+---
+
+### Option 3: Clone & Stay Updated
+
+Clone the repo so you can pull future updates with `git pull`:
+
+```bash
+cd /path/to/your/vault/.obsidian/plugins
+git clone https://github.com/Kareem251199/module-navigator.git
+```
+
+To update later:
+```bash
+cd /path/to/your/vault/.obsidian/plugins/module-navigator
+git pull
+```
 
 ---
 
